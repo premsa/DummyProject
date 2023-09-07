@@ -32,3 +32,16 @@ poetry config virtualenvs.in-project true
 poetry install
 ```
 
+#### Finally, we access our virtual enviroment in a shell with:
+
+```
+poetry shell
+(shell) ls
+(shell) python -m application.main
+```
+
+#### or, we run the command directly
+
+```
+poetry run python -m application.main
+```
