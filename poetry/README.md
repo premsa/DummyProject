@@ -2,6 +2,8 @@
 
 This repository describes my ordinary workflow for implementing small python-based projects with docker and poetry. You only need docker pre-installed on your system. 
 
+#### In the Dockerfile you can set your preferred version of python and add additional dependencies for your project.  
+
 #### Build the docker development image:
 ```
 docker build -f development.Dockerfile -t development .
