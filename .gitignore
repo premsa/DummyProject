@@ -1,0 +1,81 @@
+# Python-related
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+venv/
+*.swp
+
+# Environment-specific
+*.env
+
+# Editors and IDEs
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+ 
+# Compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# macOS specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Thumbnails
+Thumbs.db
+desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Temporary directories
+/tmp/
+/.tmp/
+
+# Log files
+*.log
+
+# Database files
+*.db
+
+# Backup files
+*.bak
+*.backup
+*.swp
+
+# Archives
+*.zip
+*.rar
+*.gz
+*.7z
+*.tar
+
+# Node.js specific files
+node_modules/
+npm-debug.log*
+
+# Virtual environment
+.env/
+
+# User-specific Python files
+*.pyc
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
