@@ -1,6 +1,6 @@
 # README
 
-This repository describes my ordinary workflow for implementing small python-based projects with poetry. You only need docker pre-instlled on your system. 
+This repository describes my ordinary workflow for implementing small python-based projects with docker and poetry. You only need docker pre-instlled on your system. 
 
 #### Build the docker development image:
 ```
