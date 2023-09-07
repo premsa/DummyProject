@@ -2,7 +2,9 @@
 
 This repository describes my ordinary workflow for implementing small python-based projects with docker and poetry. You only need docker pre-installed on your system. 
 
-#### In the Dockerfile you can set your preferred version of python and add additional dependencies for your project.  
+#### In the Dockerfile you can set your preferred version of python (or add additional dependencies for your project, e.g. GraphViz).  
+
+``ENV PYTHON_VERSION=3.10``
 
 #### Build the docker development image:
 ```
