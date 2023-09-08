@@ -41,7 +41,7 @@ poetry install
 ```
 poetry shell
 (shell) ls
-(shell) python -m application.main
+(shell) python -m main
 ```
 
 #### or, we run the command directly
