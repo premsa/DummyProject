@@ -10,6 +10,7 @@ This repository describes my ordinary workflow for implementing small python-bas
 ```
 docker build -f development.Dockerfile -t development .
 ```
+#### HINT: utilize ``--platform linux/amd64`` or ``linux/arm64`` if different architectures are being used to achieve native speed, multi-platform builds can be created when using ``--platform linux/amd64, linux/arm64``
 
 #### Run the docker container:
 ```
