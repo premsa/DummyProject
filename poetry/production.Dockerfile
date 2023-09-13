@@ -100,4 +100,4 @@ RUN poetry install
 # ==================================================================
 # entrypoint
 # ------------------------------------------------------------------
-ENTRYPOINT [ "python", "-m application.main"]
+ENTRYPOINT [ "python", "-m main"]
