@@ -1,0 +1,11 @@
+version: '1'
+services:
+  project:
+    image: development
+    container_name: example-container # docker attach example-container
+    ports:
+      - "8888:8888"                                 # jupyter notebook
+    volumes:
+      - ./:/project
+    stdin_open: true # docker run -i
+    tty: true        # docker run -t

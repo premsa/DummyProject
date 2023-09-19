@@ -16,7 +16,12 @@ docker build -f development.Dockerfile -t development .
 ```
 docker run -it development
 ```
+or define a docker-compose.yml file that holds your argument declaration even for multi-container systems. 
 
+```
+docker-compose up -d
+docker attach example-container
+```
 #### In the container initialize the pyproject.toml for an empty project interactively with:
 ```
 poetry init
